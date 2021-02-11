@@ -3,6 +3,6 @@ module "s3-bucket" {
   version = "1.15.0"
   bucket = "my-s3-bucket"
   acl    = "private"
-  bucket_prefix = var.prefix
+  bucket_prefix =var.prefix
   # insert required variables here
 }
